@@ -6,7 +6,14 @@ def isPrime(n):
             return False    
 
     return True
-    
+ 
+primes = []
+      
 for i in range(0,100):
     if(isPrime(i)):
         print(i,' is prime')
+        primes.append(i)
+
+if(17 in primes):
+    print('we did it!')
+
