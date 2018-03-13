@@ -7,6 +7,6 @@ def isPrime(n):
 
     return True
     
-for i in range(10**3,10**4):
-	if(isPrime(i)):
-		print(i,' is prime')
+for i in range(0,100):
+    if(isPrime(i)):
+        print(i,' is prime')
