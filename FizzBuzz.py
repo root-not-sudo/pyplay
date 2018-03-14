@@ -1,3 +1,5 @@
+#! python2
+# supposed to make force python2 use, doesn't work in atom
 import sys
 print(sys.executable)
 print(sys.version)
