@@ -4,7 +4,7 @@ import sys
 print(sys.executable)
 print(sys.version)
 
-for i in range(0, 100):
+'''for i in range(0, 100):
     output = ""
 
     if(i % 2 == 0):
@@ -18,4 +18,19 @@ for i in range(0, 100):
     if(output == ''):
         output = i
 
-    print(output)
+    print(output)'''
+    
+def getFizzBuzz(multiples, *args):
+    for i in range(*args):
+        output = ''
+        for num in multiples:
+            if i % num == 0:
+                output += multiples[num]
+        if output == '':
+            output = i
+        print(output)
+        
+multiples = {3:'Fizz',
+             5:'Buzz'}
+getFizzBuzz(multiples, 1, 101)
+
