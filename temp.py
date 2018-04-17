@@ -56,3 +56,5 @@ def fib_efficent(n, d):
 
 
 d = {1: 1, 2: 2}
+
+print(fib_efficent(1, d))
