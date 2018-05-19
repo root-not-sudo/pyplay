@@ -18,3 +18,7 @@ def prime_factors(n):
     if n > 1:
         factors.append(n)
     return factors
+
+
+print(factors(39))
+print(prime_factors(210))
