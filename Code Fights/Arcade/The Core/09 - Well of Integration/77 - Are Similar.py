@@ -15,6 +15,11 @@ def areSimilar(a, b):
         return(a[index1] == b[index2] and a[index2] == b[index1])
 
 
+'''def areSimilar(A, B):
+    d = [(x,y) for x,y in zip(A,B) if x!=y]
+    return len(d) == 0 or (len(d) == 2 and d[0][::-1]==d[1])'''
+
+
 print('test 1 =', areSimilar([1, 2, 3], [1, 2, 3]))
 print('test 2 =', areSimilar([1, 2, 3], [2, 1, 3]))
 print('test 3 =', areSimilar([1, 2, 2], [2, 1, 1]))
