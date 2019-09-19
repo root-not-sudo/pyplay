@@ -16,7 +16,7 @@ def craps():
         print('You Lose.')
     if firstRoll not in [2, 3, 7, 11, 12]:
         subsequentRoll = 0
-        while(firstRoll != subsequentRoll and subsequentRoll != 7):
+        while(subsequentRoll not in [7, firstRoll]):
             die1, die2 = diceRoll(), diceRoll()
             subsequentRoll=die1+die2
             input(f'point. You must roll a {firstRoll} to win. Press Enter to roll.')
