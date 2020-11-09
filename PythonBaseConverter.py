@@ -1,1 +1,2 @@
-print(hex(int(str(1335), 6)))
+def baseConversion(n, x):
+    return hex(int(str(n), x))[2:]
