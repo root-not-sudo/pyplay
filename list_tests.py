@@ -1,2 +1,2 @@
-listy = ['q', 1, 'name', 2, 5, 6]
-print(listy[-1])
+listy = [n for n in range(0, 100, 5)]
+print(listy)
